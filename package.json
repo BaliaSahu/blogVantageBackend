@@ -173,7 +173,7 @@
     "util-deprecate": "^1.0.2",
     "utils-merge": "^1.0.1",
     "validate": "^5.2.0",
-    "validator": "^13.12.0",
+    "validator": "^13.9.0",
     "vary": "^1.1.2",
     "webidl-conversions": "^7.0.0",
     "whatwg-url": "^13.0.0",
