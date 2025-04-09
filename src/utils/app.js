@@ -13,7 +13,8 @@ const cloudinary=require('cloudinary')
 app.use(
       cors({
             // origin:["http://localhost:5173"],
-            origin:["https://67f636e0d5e53c73ac64e4eb--comfy-nasturtium-90c7ad.netlify.app/"],
+            // origin:["https://67f636e0d5e53c73ac64e4eb--comfy-nasturtium-90c7ad.netlify.app/"],
+            origin:["https://blog-vantage-frontend-ps6f.vercel.app/"],
             methods:['GET','POST','PATCH','DELETE'],
             credentials:true
       })
