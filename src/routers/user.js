@@ -1,7 +1,7 @@
 const express = require('express')
 const { auth } = require('../middlewares/auth')
 const { User } = require('../models/user')
-const bcrypt = require('bcrypt')
+const bcrypt = require('bcryptjs')
 const userRouter = express.Router()
 const validator = require('validator')
 const cloudinary = require('cloudinary')
